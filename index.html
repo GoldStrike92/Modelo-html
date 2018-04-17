@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     
+    <style> 
+    
+    
+   
+
+  p {
+       margin: 15px;
+     }
+     
+    
+
+    
+
+    </style> 
+       
+    
+    <title>MELIT - Encerramento de PAT</title>
+  </head>
+  <body>
+
+
+
+<table   border = "0" width = "100%"  style = " background-color : #e2e2e2;">
+<tr>
+ <td width = "18%"> 
+
+
+ </td>
+ <td width = "64%" bgcolor="#ffffff"> 
+ 
+ <img id="topo" width="100%" src="https://image.ibb.co/mn0wec/melit_cab01.png" alt="melit_cab" height = "auto" border = "0">
+      <br>
+      <br>
+      <h3  style="font-weight: bold;    
+      margin: 15px;"id="titulo">PAT N. <<PA.NOPAT>> foi Encerrado</h3>
+      <br>
+	  <p style="margin: 15px;"><<fnSAUDACAO()>>,
+	  <br>
+      <p style="margin: 15px;">O seu Pedido de Assistência Técnico foi dado como concluido.</p>
+      <p style="margin: 15px;">Caso o problema se mantenha ou exista alguma dúvida sobre o pedido, por favor contacte-nos através:</p>
+      <br>
+	  <p style="margin: 15px;">Número Único: <b>707 450 406</b></p>
+	  <p style="margin: 15px;">(custo de uma chamada local)</p>
+	  <p style="margin: 15px;">Email: suporte@mel.pt</p>
+	  <br>
+	  <p style="margin: 15px;">Por favor classifique o nosso Pedido de Assistência, é muito importante para nós.</p>
+	  <p style="margin: 15px;">http://qualidade.melit.pt/pat</p>
+	  <br>
+	  <p style="margin: 15px;">Obrigado pela sua preferência.</p>
+	  <br>
+	  <p style="margin: 15px;"><b>MELIT - Consultoria Informática LDA</b></p>
+	  <p style="margin: 15px;">Dep. Técnico</p>
+	  <BR>
+	  <BR>
+	  <p style="margin: 15px;">Esta mensagem foi enviada automaticamente pelo PHC</p>
+	  <BR>
+	  <p style="margin: 15px;" >---
+		<p style="margin: 15px;"><b>N. PAT:</b> <<ALLTRIM(STR(PA.NOPAT))>></p>
+		<p style="margin: 15px;"><b>Cliente:</b> <<ALLTRIM(PA.NOME)>></p>
+		<p style="margin: 15px;"><b>Entidade:</b> <<ALLTRIM(PA.AGNOME)>></p>
+		<br>
+		<p style="margin: 15px;"><b>Quem Pediu:</b> <<ALLTRIM(PA.PQUEM)>></p>
+		<p style="margin: 15px;"><b>Data:</b> <<PA.PDATA>></p>
+		<br>
+		<p style="margin: 15px;"><b>Resumo:</b> <<ALLTRIM(PA.VREF)>></p>
+		<br>
+		<p style="margin: 15px;"><b>Tipo de Pedido:</b> <<ALLTRIM(PA.PTIPO)>></p>
+		<p style="margin: 15px;"><b>Estado:</b> <<ALLTRIM(PA.STATUS)>></p>
+		<br>
+		<p style="margin: 15px;"><b>Problema:</b>
+		<p style="margin: 15px;"><<ALLTRIM(PA.PROBLEMA)>></p>
+		<p style="margin: 15px;">----</p>
+		<br>
+		<br>
+		
+
+		<a class="btn btn-outline-danger btn-lg"  id="botao" href="https://www.melit.pt/helpdesk" target="_blank" style="display:table; margin: 0 auto;" >NOVO PEDIDO</a>
+     <br>
+     <br>
+     <img  style="width: 100%;
+      height: auto;" id="phc" src="https://image.ibb.co/gGKBCx/melit_barra01.png" alt="melit_rodape" height = "auto" border = "0">
+     <br>
+     <br>
+    <!--  <img id="phc2" src="phc2.jpg" alt="imagem phc 2"> -->
+ </td>
+ <td width = "18%"> 
+
+
+ </td>
+</tr>
+</table>
+
+   
+  </body>
+</html>

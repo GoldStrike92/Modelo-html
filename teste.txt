@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     
+    <style> 
+    
+    *{
+       
+       padding: 0 !important;
+    }
+
+    body{
+      background-color: #e2e2e2
+    }
+      
+    #titulo{
+      
+      font-weight: bold;    
+      margin: 15px;
+    }
+
+
+    #conteudo {
+      background-color: white;
+      
+      /*text-align: center;*/
+    }  
+
+     img {
+      width: 100%;
+      height: auto;
+      
+     }
+
+
+
+
+
+     p {
+       margin: 15px;
+     }
+     
+    
+
+    
+
+    </style> 
+       
+    
+    <title>MELIT - Encerramento de PAT</title>
+  </head>
+  <body margin = "0" padding = "0">
+
+
+
+<table   border = "0" witdh ="100%"  bgcolor="#868E96" cellpading="0" cellspacing="0">
+<tr>
+ <td width = "18%"> 
+
+
+ </td>
+ <td width = "64%" bgcolor="#ffffff"> 
+ 
+ <img id="topo" src="https://image.ibb.co/mn0wec/melit_cab01.png" alt="melit_cab">
+      <br>
+      <br>
+      <h3 id="titulo">PAT N. <<PA.NOPAT>> foi Encerrado</h3>
+      <br>
+	  <p><<fnSAUDACAO()>>,
+	  <br>
+      <p>O seu Pedido de Assistência Técnico foi dado como concluido.</p>
+      <p>Caso o problema se mantenha ou exista alguma dúvida sobre o pedido, por favor contacte-nos através:</p>
+      <br>
+	  <p>Número Único: <b>707 450 406</b></p>
+	  <p>(custo de uma chamada local)</p>
+	  <p>Email: suporte@mel.pt</p>
+	  <br>
+	  <p>Por favor classifique o nosso Pedido de Assistência, é muito importante para nós.</p>
+	  <p>http://qualidade.melit.pt/pat</p>
+	  <br>
+	  <p>Obrigado pela sua preferência.</p>
+	  <br>
+	  <p><b>MELIT - Consultoria Informática LDA</b></p>
+	  <p>Dep. Técnico</p>
+	  <BR>
+	  <BR>
+	  <p>Esta mensagem foi enviada automaticamente pelo PHC</p>
+	  <BR>
+	  <p>---
+		<p><b>N. PAT:</b> <<ALLTRIM(STR(PA.NOPAT))>></p>
+		<p><b>Cliente:</b> <<ALLTRIM(PA.NOME)>></p>
+		<p><b>Entidade:</b> <<ALLTRIM(PA.AGNOME)>></p>
+		<br>
+		<p><b>Quem Pediu:</b> <<ALLTRIM(PA.PQUEM)>></p>
+		<p><b>Data:</b> <<PA.PDATA>></p>
+		<br>
+		<p><b>Resumo:</b> <<ALLTRIM(PA.VREF)>></p>
+		<br>
+		<p><b>Tipo de Pedido:</b> <<ALLTRIM(PA.PTIPO)>></p>
+		<p><b>Estado:</b> <<ALLTRIM(PA.STATUS)>></p>
+		<br>
+		<p><b>Problema:</b>
+		<p><<ALLTRIM(PA.PROBLEMA)>></p>
+		<p>----</p>
+		<br>
+		<br>
+		
+
+		<a class="btn btn-outline-danger btn-lg"  id="botao" href="https://www.melit.pt/helpdesk" target="_blank" style="display:table; margin: 0 auto;" >NOVO PEDIDO</a>
+     <br>
+     <br>
+     <img id="phc" src="https://image.ibb.co/gGKBCx/melit_barra01.png" alt="melit_rodape">
+     <br>
+     <br>
+    <!--  <img id="phc2" src="phc2.jpg" alt="imagem phc 2"> -->
+ </td>
+ <td width = "18%"> 
+
+
+ </td>
+</tr>
+</table>
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   
+  </body>
+</html>
